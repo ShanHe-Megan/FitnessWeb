@@ -63,6 +63,7 @@ namespace FitnessWeb
                 ClientId = "157261167788-b5i4t41ujjcekeg01ld1844bf9rbpr89.apps.googleusercontent.com",
                 ClientSecret = "fxDpfPR7aDeaJCeMfVpSHnsy"
             });
+            app.MapSignalR();
         }
     }
 }

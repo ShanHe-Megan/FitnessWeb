@@ -29,6 +29,10 @@ namespace FitnessWeb.Controllers
 
             return View();
         }
+        public ActionResult Memo()
+        {
+            return View();
+        }
 
         public ActionResult Send_Email()
         {
